@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 98vh;
+  color: black;
+}
+
+.container {
+  margin-top: 5px;
+background: rgb(181, 250, 78);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+#generate:focus{
+  transition: 1s ease;
+  transform: rotateX(360deg);
+}
+
+
+#reset:focus{
+  transition: 1s ease;
+  transform: rotateX(360deg);
+}
